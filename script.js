@@ -1,1 +1,11 @@
-console.log("SANG Website Loaded");
+document.querySelector(".button").addEventListener("click",function(e){
+
+e.preventDefault();
+
+document.querySelector("#preview").scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+});
